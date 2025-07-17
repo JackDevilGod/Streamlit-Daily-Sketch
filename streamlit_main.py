@@ -40,7 +40,7 @@ def main():
             0, len(st.session_state["picture paths"]) - 1)]
 
     st.image(st.session_state["current picture"])
-
+    st.write(st.session_state["current picture"])
 
 
 if __name__ == '__main__':
