@@ -5,6 +5,7 @@ from random import randint
 
 from function.folder import get_pictures
 
+
 def main():
     st.header("Daily sketch tool")
     st.divider()
